@@ -5,7 +5,7 @@ html {
 .page {
   margin: 0;
   height: inherit;
-  min-width: 800px;
+  min-width: 1064px;
   background-color: #5c5d61;
   font-family: Raleway, system-ui, sans-serif;
   display: flex;
@@ -30,7 +30,7 @@ html {
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
-  max-width: 620px;
+  max-width: 650px;
 }
 
 .page__title::after {
