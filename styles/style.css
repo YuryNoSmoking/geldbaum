@@ -24,13 +24,13 @@ html {
   padding-top: 100px;
   z-index: 1;
   margin: 0 auto;
-  font-size: 50px;
+  font-size: clamp(1.25rem, 0.5898rem + 2.8169vw, 2.9rem);
   font-weight: 800;
   line-height: 60px;
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
-  max-width: 720px;
+  max-width: 620px;
 }
 
 .page__title::after {
