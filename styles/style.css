@@ -1,6 +1,15 @@
+html {
+  height: 100%;
+}
 
-
-
+.page {
+  margin: 0;
+  height: inherit;
+  min-width: 800px;
+  background-color: #5c5d61;
+  font-family: Raleway, system-ui, sans-serif;
+  display: flex;
+}
 
 .video {
   position: absolute;
@@ -9,4 +18,49 @@
   height: 100%;
   object-fit: cover;
   object-position: center;
+}
+
+.page__title {
+  padding-top: 100px;
+  z-index: 1;
+  margin: 0 auto;
+  font-size: 50px;
+  font-weight: 800;
+  line-height: 60px;
+  letter-spacing: 0.035em;
+  text-align: center;
+  text-transform: uppercase;
+  max-width: 720px;
+}
+
+.page__title::after {
+  content: '*';
+  position: relative;
+}
+
+.page__title:hover {
+  color: #4c4c4c;
+  cursor: default;
+}
+
+.page__title:hover::before {
+  content: 'Именно об этом будет сайт. \AМы усиленно работаем над тем,\Aчто бы он появлися как можно скорее.';
+  border: 2px solid #000;
+  position: absolute;
+  top: 180px;
+  right: 200px;
+  max-width: 760px;
+  border-radius: 20px;
+  padding: 36px 44px;
+  box-shadow: 10px 12px 0 #000;
+  color: #000;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 1;
+  letter-spacing: normal;
+  text-align: left;
+  text-transform: initial;
+  background-color: #fff;
+  white-space: pre;
+  z-index: 1;
 }
