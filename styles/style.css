@@ -22,13 +22,6 @@ html {
   min-inline-size: 360px;
 }
 
-/* .image-geldbaum {
-  z-index: 1;
-  max-inline-size: 300px;
-  filter: blur(10px) opacity(0.5);
-  
-} */
-
 .page__title {
   padding-top: 100px;
   z-index: 1;
@@ -41,7 +34,6 @@ html {
   text-transform: uppercase;
   max-width: 650px;
 }
-
 
 .page__title:hover {
   color: #4c4c4c;
@@ -83,11 +75,6 @@ html {
     -1px 1px gray,
     1px 1px gray;
 }
-
-
-
-
-
 
 @media (width < 1064px) {
 
