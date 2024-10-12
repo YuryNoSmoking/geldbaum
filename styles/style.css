@@ -5,7 +5,7 @@ html {
 .page {
   margin: 0;
   height: inherit;
-  min-width: 1064px;
+  /* min-width: 1064px; */
   background-color: #5c5d61;
   font-family: Raleway, system-ui, sans-serif;
   display: flex;
@@ -25,9 +25,9 @@ html {
   padding-top: 100px;
   z-index: 1;
   margin: 0 auto;
-  font-size: clamp(1.25rem, 0.5898rem + 2.8169vw, 2.9rem);
+  font-size: 80px;
   font-weight: 800;
-  line-height: 70px;
+  line-height: 100px;
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
@@ -77,7 +77,18 @@ html {
 
 @media (width < 1064px) {
 
+  .page {
+    min-inline-size: 360px;
+    padding: 20px;
+  }
+
   .video {
     display: none;
+  }
+
+  .page__title {
+    padding-top: 30px;
+    font-size: 30px;
+    line-height: 40px;
   }
 }
