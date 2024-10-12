@@ -33,9 +33,9 @@ html {
   padding-top: 100px;
   z-index: 1;
   margin: 0 auto;
-  font-size: 50px;
+  font-size: clamp(1.5rem, 0.9583rem + 2.4074vw, 3.125rem);
   font-weight: 800;
-  line-height: 50px;
+  line-height: 60px;
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
@@ -77,7 +77,11 @@ html {
   max-width: 300px;
   text-align: center;
   align-self: center;
-  text-shadow: 1px 2px 2px grey;
+  text-shadow:
+    -1px -1px gray,
+    1px -1px gray,
+    -1px 1px gray,
+    1px 1px gray;
 }
 
 
@@ -94,7 +98,7 @@ html {
 
   .page__title {
     padding-top: 30px;
-    font-size: 24px;
+    /* font-size: 25px; */
     line-height: 40px;
   }
 
