@@ -27,7 +27,7 @@ html {
   margin: 0 auto;
   font-size: clamp(1.25rem, 0.5898rem + 2.8169vw, 2.9rem);
   font-weight: 800;
-  line-height: 60px;
+  line-height: 70px;
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
@@ -73,5 +73,11 @@ html {
   align-self: center;
   padding-top: 150px;
   color: black;
-  
+}
+
+@media (width < 1064px) {
+
+  .video {
+    display: none;
+  }
 }
