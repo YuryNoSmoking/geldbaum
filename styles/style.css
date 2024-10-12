@@ -19,7 +19,15 @@ html {
   height: 100%;
   object-fit: cover;
   object-position: center;
+  min-inline-size: 360px;
 }
+
+/* .image-geldbaum {
+  z-index: 1;
+  max-inline-size: 300px;
+  filter: blur(10px) opacity(0.5);
+  
+} */
 
 .page__title {
   padding-top: 100px;
@@ -34,10 +42,10 @@ html {
   max-width: 650px;
 }
 
-.page__title::after {
+/* .page__title::after {
   content: '*';
   position: relative;
-}
+} */
 
 .page__title:hover {
   color: #4c4c4c;
@@ -82,13 +90,12 @@ html {
     padding: 20px;
   }
 
-  .video {
-    display: none;
-  }
-
   .page__title {
     padding-top: 30px;
-    font-size: 30px;
+    font-size: 24px;
     line-height: 40px;
+  }
+
+  .page__contacts {
   }
 }
