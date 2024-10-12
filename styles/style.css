@@ -33,19 +33,15 @@ html {
   padding-top: 100px;
   z-index: 1;
   margin: 0 auto;
-  font-size: 80px;
+  font-size: 50px;
   font-weight: 800;
-  line-height: 100px;
+  line-height: 50px;
   letter-spacing: 0.035em;
   text-align: center;
   text-transform: uppercase;
   max-width: 650px;
 }
 
-/* .page__title::after {
-  content: '*';
-  position: relative;
-} */
 
 .page__title:hover {
   color: #4c4c4c;
@@ -74,14 +70,20 @@ html {
   z-index: 1;
 }
 
-.page__contacts {
+.address {
   z-index: 1;
-  max-width: 650px;
+  margin: auto;
+  font-weight: 600;
+  max-width: 300px;
   text-align: center;
   align-self: center;
-  padding-top: 150px;
-  color: black;
+  text-shadow: 1px 2px 2px grey;
 }
+
+
+
+
+
 
 @media (width < 1064px) {
 
