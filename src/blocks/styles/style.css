@@ -50,6 +50,7 @@ html {
 }
 
 @media (width < 1064px) {
+  
   .page {
     min-inline-size: 360px;
     padding: 20px;
