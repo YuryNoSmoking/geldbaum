@@ -47,6 +47,7 @@ ol {
   clip-path: inset(50%);
   white-space: nowrap;
 }
+
 html {
   height: 100%;
 }
@@ -91,13 +92,15 @@ html {
   max-width: 300px;
   text-align: center;
   align-self: center;
-  text-shadow: -1px -1px gray,
+  text-shadow:
+    -1px -1px gray,
     1px -1px gray,
     -1px 1px gray,
     1px 1px gray;
 }
 
 @media (width < 1064px) {
+
   .page {
     min-inline-size: 360px;
     padding: 20px;
